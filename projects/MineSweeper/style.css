@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700italic);
+
+body {
+	margin: auto;
+	width: 100%;
+	height: auto;
+	font-family: 'Lato', sans-serif;
+	width: 400px;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: 'Lato', Arial;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.box {
+	border: 1px solid gray;
+	border-radius: 3px;
+	padding: 4px;
+	height: 50px;
+	font-size: 12px;
+	background-color: #CCC;
+}
+
+#new_game {
+	line-height: 50px;
+}
+
+#new_game:hover {
+	background-color: #7EAEE4;
+	cursor: pointer;
+}
